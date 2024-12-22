@@ -30,7 +30,7 @@ dbContext.Database.Migrate();
 var requestedUser = new User
 {
     Id = 1,
-    Name = "asdsadbgf nhgfb n gf gf "
+    Name = "test user"
 };
 
 await Upsert(requestedUser);
